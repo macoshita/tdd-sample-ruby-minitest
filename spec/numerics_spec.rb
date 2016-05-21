@@ -12,4 +12,10 @@ describe Numerics do
       Numerics.odd?(4) == false
     }
   end
+  
+  it '6' do
+    assert {
+      Numerics.even?(6) == true
+    }
+  end
 end
